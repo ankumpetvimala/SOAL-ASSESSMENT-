@@ -320,20 +320,26 @@ sudo chmod -R 755 /var/www/laravel/storage
 ### 8. Push the Automation Script to GitHub
 
 *Create a New Repository:*
+
 - Go to GitHub and create a new repository.
 
 *Push the Automation Script:*
-sh
+
 git init
+
 git add setup-server.sh
+
 git commit -m "Add server setup automation script"
+
 git remote add origin https://github.com/your-username/your-repo.git
+
 git push -u origin master
 
 
 *Write README.md:*
+
 Create a README.md file explaining each step:
-markdown
+
 # Server Setup Automation Script
 
 ## Overview
@@ -381,13 +387,13 @@ This script automates the setup of a server environment for a Laravel applicatio
 - Upload the PDF to your GitHub repository or share it as required.
 
 By following these steps, you can successfully create a VM, set up the required environment, deploy a Laravel application, test its
-5.Create a Bash/Python server setup automation script with the following environment: 
+Create a Bash/Python server setup automation script with the following environment: 
    a. Timezone Asia/ Jakarta 
    b. updates & upgrades
    c. Install Git, Curl, ZIP, python3 & python3-pip
    d. Install docker
 
-6.Create a GitHub account and push the automation script to the repository you have created.
+Create a GitHub account and push the automation script to the repository you have created.
 
 Instructions:
 
