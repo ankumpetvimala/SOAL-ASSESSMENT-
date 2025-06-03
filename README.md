@@ -396,8 +396,8 @@ Create a Bash/Python server setup automation script with the following environme
    c. Install Git, Curl, ZIP, python3 & python3-pip
    
    d. Install docker
-
-Create a GitHub account and push the automation script to the repository you have created.
+   
+   e.Create a GitHub account and push the automation script to the repository you have created.
 
 Instructions:
 
