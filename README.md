@@ -388,9 +388,13 @@ This script automates the setup of a server environment for a Laravel applicatio
 
 By following these steps, you can successfully create a VM, set up the required environment, deploy a Laravel application, test its
 Create a Bash/Python server setup automation script with the following environment: 
+
    a. Timezone Asia/ Jakarta 
+   
    b. updates & upgrades
+   
    c. Install Git, Curl, ZIP, python3 & python3-pip
+   
    d. Install docker
 
 Create a GitHub account and push the automation script to the repository you have created.
@@ -398,10 +402,15 @@ Create a GitHub account and push the automation script to the repository you hav
 Instructions:
 
 Make documentation of each step taken, things that must be there include:
+
 a. Server specifications & OS used  
+
 b. Application Deployment Process 
+
 c. Screenshot of question number 4 
+
 d. Github link of bash/python server setup automation script 
+
 e. Convert test results files to PDF
 
 
