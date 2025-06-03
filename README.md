@@ -1,8 +1,11 @@
 # SOAL-ASSESSMENT DEVOPS
 
 1.Create a VM on the laptop/Cloud provider with the following specifications:
+
    a.1 vCPU
+   
    b.RAM 2GB
+   
    c.Storage 30GB
 
 ### 1. Create a VM with Specified Specifications
