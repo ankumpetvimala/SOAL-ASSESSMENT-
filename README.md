@@ -399,19 +399,6 @@ Create a Bash/Python server setup automation script with the following environme
    
    e.Create a GitHub account and push the automation script to the repository you have created.
 
-Instructions:
-
-Make documentation of each step taken, things that must be there include:
-
-a. Server specifications & OS used  
-
-b. Application Deployment Process 
-
-c. Screenshot of question number 4 
-
-d. Github link of bash/python server setup automation script 
-
-e. Convert test results files to PDF
 
 
 
