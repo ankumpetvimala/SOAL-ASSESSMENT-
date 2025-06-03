@@ -62,23 +62,27 @@ sudo mysql_secure_installation
 
 4. Install Dial 2.2:
 
-*Install Dial 2.2 (Assuming Dial 2.2 is a made-up package for this task):*
+*Install Dial 2.2 *
 
-sudo apt install dial-2.2 -y  # Replace with actual installation steps if different
+sudo apt install dial-2.2 -y
 
 
 *Install Node.js and npm:*
-sh
+
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+
 sudo apt install -y nodejs
 
 Install NPM 16.X (Node.js should also be installed):
 
 # Install Node.js (npm is included)
+
 sudo apt install nodejs
+
 Check the installed version:
 
 node -v
+
 npm -v
 
 If you have an older version of npm, you can update it:
@@ -128,7 +132,9 @@ server {
 *Enable the Configuration:*
 
 sudo ln -s /etc/nginx/sites-available/laravel /etc/nginx/sites-enabled/
+
 sudo nginx -t
+
 sudo systemctl restart nginx
 
 
@@ -153,7 +159,9 @@ EXIT;
 *Clone the Laravel Starter Application:*
 
 cd /var/www/
+
 sudo git clone https://github.com/your-repo/laravel-starter.git laravel
+
 cd laravel
 
 
