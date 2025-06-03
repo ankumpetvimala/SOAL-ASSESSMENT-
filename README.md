@@ -106,24 +106,33 @@ sudo npm install -g npm@16
 sudo nano /etc/nginx/sites-available/laravel
 
 *Add the following content:*
+
 nginx
+
 server {
+
     listen 80;
+    
     server_name your_domain_or_ip;
+    
     root /var/www/laravel/public;
 
     index index.php index.html index.htm;
 
     location / {
+    
         try_files $uri $uri/ /index.php?$query_string;
     }
 
     location ~ \.php$ {
+    
         include snippets/fastcgi-php.conf;
+        
         fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
     }
 
     location ~ /\.ht {
+    
         deny all;
     }
 }
@@ -217,7 +226,7 @@ git push SOAL-ASSESSMENT- master
 
 Create a Bash script (setup-server.sh) with the following content:
 
-bash
+
 #!/bin/bash
 
 # Update and upgrade
@@ -249,23 +258,30 @@ sudo apt install -y nodejs
 
 # Create Nginx configuration for Laravel
 sudo tee /etc/nginx/sites-available/laravel > /dev/null <<EOL
+
 server {
+
     listen 80;
+    
     server_name your_domain_or_ip;
+    
     root /var/www/laravel/public;
 
     index index.php index.html index.htm;
 
     location / {
+    
         try_files \$uri \$uri/ /index.php?\$query_string;
     }
 
     location ~ \.php\$ {
+    
         include snippets/fastcgi-php.conf;
         fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
     }
 
     location ~ /\.ht {
+    
         deny all;
     }
 }
