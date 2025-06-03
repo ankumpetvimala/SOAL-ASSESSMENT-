@@ -155,11 +155,17 @@ sudo mysql -u root -p
 
 
 *Create Database and User:*
+
 sql
+
 CREATE DATABASE laravel;
+
 CREATE USER 'laraveluser'@'localhost' IDENTIFIED BY 'password';
+
 GRANT ALL PRIVILEGES ON laravel.* TO 'laraveluser'@'localhost';
+
 FLUSH PRIVILEGES;
+
 EXIT;
 
 
@@ -209,6 +215,7 @@ php artisan migrate --seed
 *Set Permissions:*
 
 sudo chown -R www-data:www-data /var/www/laravel
+
 sudo chmod -R 755 /var/www/laravel/storage
 
 git push SOAL-ASSESSMENT- master
@@ -297,12 +304,16 @@ sudo git clone https://github.com/your-repo/laravel-starter.git /var/www/laravel
 
 # Set up Laravel application
 cd /var/www/laravel
+
 composer install
+
 cp .env.example .env
+
 php artisan key:generate
 
 # Set permissions
 sudo chown -R www-data:www-data /var/www/laravel
+
 sudo chmod -R 755 /var/www/laravel/storage
 
 
