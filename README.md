@@ -38,10 +38,10 @@ sudo apt update && sudo apt upgrade -y
      a.PHP 8.1
      b.Nginx 1.18/1.21
      c.MariaDB 10
-     d.Dial 2.2
+     d.composer 2.2
      e.NPM 16.X
 
-To install PHP 8.1, Nginx 1.18/1.21, MariaDB 10, Dial 2.2, and NPM 16.X, we can use the following commands:
+To install PHP 8.1, Nginx 1.18/1.21, MariaDB 10, composer 2.2, and NPM 16.X, we can use the following commands:
 
 1.Install PHP 8.1
 
@@ -63,11 +63,11 @@ Secure MariaDB Installation:*
 
 sudo mysql_secure_installation
 
-4. Install Dial 2.2:
+4. Install composer 2.2:
 
-*Install Dial 2.2 *
+*Install composer 2.2 *
 
-sudo apt install dial-2.2 -y
+sudo apt install composer-2.2 -y
 
 
 *Install Node.js and npm:*
@@ -356,7 +356,7 @@ This script automates the setup of a server environment for a Laravel applicatio
 - PHP 8.1
 - Nginx 1.18/1.21
 - MariaDB 10
-- Dial 2.2
+- Composer 2.2
 - NPM 16.X
 
 ## Usage
