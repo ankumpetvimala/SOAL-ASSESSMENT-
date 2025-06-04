@@ -363,15 +363,16 @@ This script automates the setup of a server environment for a Laravel applicatio
 1. Clone the repository:
    
    git clone https://github.com/your-username/your-repo.git
+   
    cd your-repo
    
 
-2. Make the script executable:
+3. Make the script executable:
    
    chmod +x setup-server.sh
    
 
-3. Run the script:
+4. Run the script:
    
    ./setup-server.sh
    
