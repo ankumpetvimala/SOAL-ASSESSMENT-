@@ -1,4 +1,4 @@
-# Laravel App 
+# Laravel Starter
 
 ## Overview
 
