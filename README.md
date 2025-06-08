@@ -1,14 +1,22 @@
-# SOAL-ASSESSMENT DEVOPS
+# Laravel App 
 
-1.Create a VM on the laptop/Cloud provider with the following specifications:
+## Overview
 
-   a.1 vCPU
-   
-   b.RAM 2GB
-   
-   c.Storage 30GB
+This project automates the provisioning of a server and deployment of a Laravel application using a Bash script. It installs all necessary packages and configures PHP, Nginx, MariaDB, Node.js, and other dependencies.
 
-### 1. Create a VM with Specified Specifications
+---
+
+## 🖥️ Server Specifications
+
+1. Create a VM on the laptop/Cloud provider with the following specifications:
+
+- **CPU**: 1 vCPU  
+- **RAM**: 2 GB  
+- **Disk**: 30 GB  
+- **OS**: Ubuntu 20.04  
+- **Timezone**: Asia/Jakarta  
+
+---
 
 #### Using AWS:
 1. *Launch an Instance*:
