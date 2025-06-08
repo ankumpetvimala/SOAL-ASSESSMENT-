@@ -167,7 +167,6 @@ sudo mysql -u root -p
 
 *Create Database and User:*
 
-sql
 
 CREATE DATABASE laravel;
 
