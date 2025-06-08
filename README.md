@@ -6,6 +6,9 @@ This project automates the provisioning of a server and deployment of a Laravel 
 
 ---
 
+![larvel starter](https://github.com/user-attachments/assets/60ee3b0c-66e7-42d6-a5fc-a86aa75536f0)
+
+
 ## 🖥️ Server Specifications
 
 1. Create a VM on the laptop/Cloud provider with the following specifications:
